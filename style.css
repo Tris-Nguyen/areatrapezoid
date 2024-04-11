@@ -1,0 +1,31 @@
+/* Center fixed width */
+body {
+  width: 600px;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  width: 425px;
+  text-align: center;
+}
+#formula {
+  border: 1px solid black;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#CalcBtn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.check {
+  width: 20px;
+  vertical-align: middle;
+}

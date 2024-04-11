@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Area of Trapezoid</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Area of Trapezoid Calculator</h1>
+    <p>
+      <img src="images/trapezoidareaimage.png" alt="Area of Trapezoid Image" />
+    </p>
+
+    <h2>Inputs</h2>
+    <p>Length of top base (b1): <input id="top-base" type="number" /></p>
+
+    <p>Length of bottom base (b2): <input id="bottom-base" type="number" /></p>
+    <p>Height of trapezoid (h): <input id="height" type="number" /></p>
+
+    <p>
+      Decimals: <input id="decimals" type="number" min="0" max="10" value="1" />
+    </p>
+
+    <button id="CalcBtn">CALCULATE</button>
+
+    <h2>Output</h2>
+    <p>The area of the trapezoid is <span id="output">----</span>.</p>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
